@@ -1,0 +1,10 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}

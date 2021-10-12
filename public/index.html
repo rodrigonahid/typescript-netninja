@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Logger</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Finance Logger</h1>
+        </header>
+        <div class="list">
+            <ul></ul>
+        </div>
+        <section>
+            <form method="POST">
+                <label>
+                    Type:
+                    <select id="type">
+                        <option value="invoice">Invoice</option>
+                    </select>
+                </label>
+                <label>
+                    To / From:
+                    <input type="text" name="to-from" id="to-from">
+                </label>
+                <label>
+                    Details:
+                    <input type="text" name="details" id="details">
+                </label>
+                <label>
+                    Amount:
+                    <input type="number" name="amount" id="amount">
+                </label>
+                <input type="submit" value="submit">
+            </form>
+        </section>
+        <div class="anchor-wrapper">
+            <a href="https://rodrigonahid.com.br" target="_blank">About Me</a>
+        </div>
+    </main>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
